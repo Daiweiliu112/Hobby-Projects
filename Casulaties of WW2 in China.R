@@ -4,7 +4,7 @@ getwd()
 data<-read.csv("D:/shiny/chinese_theater.csv")
 head(data)
 
-data_clean <- na.omit(data)
+data_clean <- data
 data_clean
 
 total <- function(vec) {
